@@ -3,7 +3,7 @@ def join_nested_strings(src)
    src.length.times { |idx|
      string = ""
      src[idx].length.times {|idx2|
-       if string + src[idx][idx2]
+       if src[idx][idx2].is_a? string
          string = string + " " + src[idx][idx2]
        end
      }
