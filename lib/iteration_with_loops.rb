@@ -7,7 +7,7 @@ def join_nested_strings(src)
          string = " " + src[idx][idx2]
        end
      }
-     string_array = string_array + " " + string
+     string_array = " " + string
    }
    string_array
 end
